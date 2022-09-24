@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px green solid; */
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* CSS of index.html */
+
+/* ABOUT US */
+
+.about-us{
+    padding: 3vh 0vw;
+    border-bottom: 5px dashed #000;
+}
+
+.about-us h1{
+    font-size: 3vw;
+    margin-bottom: 1vh;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-left{
+    width: 38vw;
+}
+
+.about-left p{
+    font-size: 1.5vw;
+}
+
+.about-right{
+    width: 22vw;
+}
+
+.about-right img{
+    width: 30vw;
+    height: 60vh;
+}
+
+/* Our Team */
+
+.our-team{
+    padding: 6vh 0vw;
+    border-bottom: 5px dashed #000;
+}
+
+.our-team h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+
+.team-member{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-member p{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: red;
+}
+
+.our-team img{
+    margin: 0vh 1vw;
+    width: 20vw;
+    height: 35vh;
+}
+
+/* CSS of career.html */
+
+.career{
+    padding: 6vh 0vw;
+    border-bottom: 5px dashed #000;
+}
+.career-content{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+}
+
+.career-content h2{
+    font-size: 2vw;
+    background: blue;
+    padding: 2vh 0vw;
+    color: white;
+    margin-bottom: 1vh;
+    text-transform: capitalize;
+}
+
+.career-content p{
+    font-size: 1.5vw;
+    margin-bottom: 1vh;
+}
+
+.career-content h1{
+    margin-top: 9vh;
+    font-size: 2vw;
+    background: blue;
+    padding: 2vh 0vw;
+    color: white;
+    margin-bottom: 1vh;
+    text-transform: capitalize;
+}
+
+/* CSS of services.html */
+
+
+
+
+/* CSS of login.html */
+
+.login-form{
+    padding: 6vh 0vw;
+}
+
+.form{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 14vh 8vw;
+}
+
+.form h1{
+    font-size: 2vw;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+input[type=email], input[type=password]{
+    font-size: 1.8vw;
+    padding: 3px;
+}
+
+input[type=submit]{
+    font-size: 1.8vw;
+    padding: 0.5vh 1vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form form a{
+    color: blue;
+    margin-left: 3vw;
+    vertical-align: middle;
+}
+
+/* CSS of register.html */
+
+.register-form{
+    padding: 6vh 0vw;
+}
+
+input[type=text]{
+    font-size: 1.8vw;
+    padding: 3px;
+}

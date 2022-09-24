@@ -1,0 +1,191 @@
+/* CSS of Header, Nav Bar, and Footer */
+
+
+/* HEADER */
+
+header{
+    background: rgb(189, 189, 189);
+    height: fit-content;
+    padding: 1.5vh 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 4.2vw;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+
+header p{
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    background: transparent;
+    height: fit-content;
+    padding: 1.5vh 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li{
+    margin: 0vh 2vw;
+}
+
+.nav-left ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav-left ul li a{
+    font-size: 1.9vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right button:active{
+    box-shadow: inset -1px -1px 4px 0px black;
+}
+
+.nav-right button{
+    background: red;
+    margin: 0vh 2vw;
+    padding: 4px 6px;
+    border-radius: 30%;
+    box-shadow: 0px 0px 5px 0px black;
+    
+}
+
+.nav-right button a{
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+/* SHOWCASE */
+
+.showcase{
+    height: 52vh;
+    padding: 8vh 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 5px dashed darkblue;
+}
+
+.showcase-text{
+    width: 50%;
+    margin: auto;
+}
+
+.showcase-text h1{
+    font-size: 2.5vw;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.showcase-text p{
+    font-size: 1.8vw;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.showcase-button{
+    padding-top: 3vh;
+    width: fit-content;
+    margin: auto;
+}
+
+.showcase-button button{
+    color: white;
+    font-size: 2vw;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: rgb(255, 94, 0);
+}
+
+/* FOOTER */
+
+.F-H{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+footer{
+    background: rgb(16, 14, 35);
+    padding: 3vh 8vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-left ul li a:hover{
+    color: blue;
+}
+
+.footer-left ul li a{
+    cursor: pointer;
+    line-height: 9vh;
+    color: white;
+    font-size: 1.8vw;
+}
+
+.footer-middle div p{
+    color: white;
+}
+
+.project-one, .project-two, .project-three{
+    display: flex;
+}
+
+footer img{
+    width: 4.5vw;
+    margin-bottom: 5px;
+}
+
+.footer-right form input[type=email]{
+    width: 20vw;
+    /* height: 5vh; */
+    font-size: 1.2vw;
+    padding: 2px;
+    border: 0ch;
+}
+
+.footer-right form textarea{
+    width: 20vw;
+    margin-top: 3px;
+    padding: 2px;
+    /* height: 15vh; */
+    font-size: 1.5vw;
+    border: 0ch;
+}
+
+.footer-right form input[type=submit]{
+    background: orange;
+    border-radius: 10px;
+    font-size: 1.4vw;
+    padding: 3px;
+}
